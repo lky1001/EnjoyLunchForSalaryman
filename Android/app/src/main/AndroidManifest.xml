@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.AddLaunchActivity" />
+        <activity android:name=".activities.AddLaunchActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
