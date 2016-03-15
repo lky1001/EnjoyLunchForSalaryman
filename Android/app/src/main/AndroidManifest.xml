@@ -19,7 +19,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".activities.AddLaunchActivity"
+        <activity
+            android:name=".activities.AddLaunchActivity"
+            android:label="@string/activity_add_launch_name"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

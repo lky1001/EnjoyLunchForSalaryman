@@ -16,9 +16,24 @@
         android:paddingTop="@dimen/activity_vertical_margin">
 
         <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/input_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_date" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
             android:id="@+id/input_layout_store_name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
 
             <EditText
                 android:id="@+id/input_store_name"
@@ -28,5 +43,99 @@
 
         </android.support.design.widget.TextInputLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                android:text="@string/hunger_point_text"/>
+            <TextView
+                android:id="@+id/txt_hunger_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                android:text="1"/>
+        </LinearLayout>
+
+        <com.appyvet.rangebar.RangeBar
+            android:id="@+id/input_hunger_point"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:rangeBar="false"
+            app:selectorSize="10dp"
+            app:pinMinFont="13sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/input_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_menu" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/input_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:digits="0123456789.,"
+                android:hint="@string/hint_price" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                android:text="@string/satisfaction_point_text"/>
+            <TextView
+                android:id="@+id/txt_satisfaction_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="18sp"
+                android:text="1"/>
+        </LinearLayout>
+
+        <RatingBar
+            android:id="@+id/input_satisfaction_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:rating="3.5"
+            android:stepSize="0.1"
+            android:numStars="5"/>
+
+        <Button
+            android:id="@+id/button_add_launch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_launch_button_text"/>
     </LinearLayout>
 </ScrollView>
