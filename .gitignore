@@ -52,3 +52,19 @@ Android/captures/
 
 ### Android Patch ###
 Android/gen-external-apklibs
+ApiServer/.gradle/2.5/taskArtifacts/cache.properties
+ApiServer/.gradle/2.5/taskArtifacts/cache.properties.lock
+ApiServer/.gradle/2.5/taskArtifacts/fileHashes.bin
+ApiServer/.gradle/2.5/taskArtifacts/fileSnapshots.bin
+ApiServer/.gradle/2.5/taskArtifacts/outputFileStates.bin
+ApiServer/.gradle/2.5/taskArtifacts/taskArtifacts.bin
+ApiServer/.idea/.name
+ApiServer/.idea/compiler.xml
+ApiServer/.idea/encodings.xml
+ApiServer/.idea/gradle.xml
+ApiServer/.idea/misc.xml
+ApiServer/.idea/modules.xml
+ApiServer/.idea/workspace.xml
+ApiServer/.idea/copyright/profiles_settings.xml
+ApiServer/.idea/libraries/Gradle__junit_junit_4_11.xml
+ApiServer/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
