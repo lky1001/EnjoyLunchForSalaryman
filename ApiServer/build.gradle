@@ -15,7 +15,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'enjoylaunch-api-server'
+    baseName = 'enjoylunch-api-server'
     version = '0.1.0'
 }
 
