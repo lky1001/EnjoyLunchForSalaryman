@@ -1,4 +1,6 @@
-package com.soundlly.enjoylaunchforsalaryman.configuration;
+package com.soundlly.enjoylunchforsalaryman.configuration;
+
+import com.soundlly.enjoylunchforsalaryman.lunch.model.LunchModel;
 
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,8 @@ public class DataConfiguration {
   @Bean
   public SessionFactory sessionFactory(DataSource dataSource) {
     return new LocalSessionFactoryBuilder(dataSource)
+        .scanPackages("com.soundlly.enjoylunchforsalaryman")
+        .addAnnotatedClasses(LunchModel.class)
         .buildSessionFactory();
   }
 }
