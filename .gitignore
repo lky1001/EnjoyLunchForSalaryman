@@ -52,6 +52,7 @@ Android/captures/
 
 ### Android Patch ###
 Android/gen-external-apklibs
+
 ApiServer/.gradle/2.5/taskArtifacts/cache.properties
 ApiServer/.gradle/2.5/taskArtifacts/cache.properties.lock
 ApiServer/.gradle/2.5/taskArtifacts/fileHashes.bin
@@ -68,3 +69,43 @@ ApiServer/.idea/workspace.xml
 ApiServer/.idea/copyright/profiles_settings.xml
 ApiServer/.idea/libraries/Gradle__junit_junit_4_11.xml
 ApiServer/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+
+
+# User-specific stuff:
+batch/.idea/workspace.xml
+batch/.idea/tasks.xml
+batch/.idea/dictionaries
+batch/.idea/vcs.xml
+batch/.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+batch/.idea/dataSources.ids
+batch/.idea/dataSources.xml
+batch/.idea/dataSources.local.xml
+batch/.idea/sqlDataSources.xml
+batch/.idea/dynamic.xml
+batch/.idea/uiDesigner.xml
+batch/.idea/*
+batch/.gradle/*
+
+# Gradle:
+batch/.idea/gradle.xml
+batch/.idea/libraries
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+batch/out/
+
+# mpeltonen/sbt-idea plugin
+batch/.idea_modules/
+
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
